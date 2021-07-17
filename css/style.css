@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: black;
+}
+
 .top-bar-button{
    border:1px solid yellow;
    padding:10px 20px;
@@ -26,12 +30,12 @@
     display: flex;
     flex-direction:row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    /*justify-content: space-evenly;*/
+    align-content:flex-start;
 }
 
 .main-container-video{
     height: 60vh;
-    border:1px solid red;
     margin:auto;
     width:90%;
 }
@@ -41,6 +45,7 @@
     width:270px;
     border:1px solid black;
     position:relative;
+    margin:1px;
 }
 
 .webcam-image>img{
