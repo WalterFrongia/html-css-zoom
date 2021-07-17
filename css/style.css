@@ -4,3 +4,53 @@
     box-sizing: border-box;
 }
 
+.top-bar-button{
+   border:1px solid yellow;
+   padding:10px 20px;
+   padding-bottom: 20px;
+}
+
+.top-bar-button>button{
+    margin-left: 20px;
+    padding:3px 10px;
+    background-color: rgb(75, 75, 75);
+    color:white;
+}
+
+.flex{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.main-flex{
+    display: flex;
+}
+
+.main-container-video{
+    height: 60vh;
+    border:1px solid red;
+    margin:auto;
+    width:90%;
+}
+
+.webcam-image{
+    height: 150px;
+    width:200px;
+    border:1px solid black;
+    position:relative;
+}
+
+.webcam-image>img{
+    width:100%;
+    height: 149px;
+}
+
+.webcam-users-name{
+    border:1px solid black;
+    position:absolute;
+    bottom:0;
+    left: 0;
+    color:white;
+    background-color: rgb(39, 39, 39);
+    opacity: 0.5;
+}
