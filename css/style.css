@@ -108,15 +108,11 @@ li{
     font-size: 15px;
 }
 
-.nav-center>li{
-    padding:0 20px;
-}
-
-.nav-center>p{
-    padding-right: 20px;
-}
-
 .nav-right>p{
     color:red;
     font-size: 18px;
+}
+
+.container-share-screen li{
+    color:rgb(2, 221, 2);
 }
