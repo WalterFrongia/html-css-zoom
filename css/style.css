@@ -29,7 +29,8 @@ body{
 
 
 .main-container-video{
-    height:calc(100vh- 20vh);
+    height:calc(100vh - 130px);
+    overflow:auto;
     margin:auto;
     width:90%;
     padding-bottom: 60px;
@@ -91,12 +92,15 @@ body{
     justify-content: space-around;
 }
 
+.nav-left li{
+    padding:0 20px 0 10px;
+}
+
 li{
     color:white;
     display: inline-block;
     font-size: 25px;
     justify-content: space-between;
-    padding:0 20px 0 10px;
 }
 
 .footer-nav p{
