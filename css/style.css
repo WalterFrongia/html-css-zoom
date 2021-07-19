@@ -14,9 +14,9 @@ body{
 }
 
 .top-bar-button{
-   padding:10px 20px;
-   padding-bottom: 20px;
-   justify-content: flex-end;
+    height: 60px;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .top-bar-button>button{
@@ -29,12 +29,12 @@ body{
 
 
 .main-container-video{
+    height:calc(100vh- 20vh);
     margin:auto;
     width:90%;
-    padding-bottom: 80px;
+    padding-bottom: 60px;
     flex-direction:row;
     flex-wrap: wrap;
-    /*justify-content: space-evenly;*/
     align-content:flex-start;
 }
 
@@ -66,13 +66,13 @@ body{
     width:100%;
     justify-content: space-between;
     background-color: rgb(44, 44, 44);
-    padding-left: 5px;
 }
 
 .nav-left{
     height: 100%;
-    width: 300px;
+    width: 200px;
     align-items: center;
+    justify-content: space-between;
 }
 
 .nav-center{
@@ -88,13 +88,14 @@ body{
     width:150px;
     background-color: rgb(97, 97, 97);
     align-items:center;
-    padding-left:25px;
+    justify-content: space-around;
 }
 
 li{
     color:white;
     display: inline-block;
     font-size: 25px;
+    justify-content: space-between;
     padding:0 20px 0 10px;
 }
 
